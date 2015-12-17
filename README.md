@@ -6,7 +6,7 @@ This tool will add an event acceptance function from the remote to Zabbix.
 Also, in cooperation event information to Slack, do the time line manage .
 
 # Requirements
-* Zabbix2.4
+* Zabbix2.0 later
 
 
 # USAGE
