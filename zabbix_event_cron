@@ -1,0 +1,2 @@
+*/10 * * * * root /opt/zabbix-alert-script/zabbix_event_check.pl > /dev/null 2>&1
+*/1 * * * * root /opt/zabbix-alert-script/zabbix_event_accept.pl > /dev/null 2>&1
