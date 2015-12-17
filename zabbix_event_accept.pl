@@ -10,7 +10,6 @@ use utf8;
 
 use ZabbixAPI;
 use SlackAPI;
-use RedmineAPI;
 use Encode;
 use MIME::Parser;
 use JSON;
