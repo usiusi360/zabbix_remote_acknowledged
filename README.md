@@ -45,10 +45,13 @@ Also, in cooperation event information to Slack, do the time line manage .
 
 ### Configuration => Actions
 * Name：#Slack
+
 　Operations
 　　/usr/lib/zabbix/alertscripts/zabbix-slack-alertscript.sh "{TRIGGER.STATUS}" "{TRIGGER.NSEVERITY}" "{EVENT.DATE}  {EVENT.TIME}" "{TRIGGER.SEVERITY}" "{HOST.NAME1}" "{TRIGGER.NAME}:{ITEM.NAME1}" "({HOST.NAME1}:{ITEM.KEY1}): {ITEM.VALUE1}" "{ITEM.ID}"
 
 * Name：#Slack[log]
+
+　Operations
 　　/usr/lib/zabbix/alertscripts/zabbix-slack-alertscript.sh "{TRIGGER.STATUS}" "{TRIGGER.NSEVERITY}" "{EVENT.DATE}  {EVENT.TIME}" "{TRIGGER.SEVERITY}" "{HOST.NAME1}" "{TRIGGER.NAME}:{ITEM.NAME1}" "({HOST.NAME1}:{ITEM.KEY1}): {ITEM.VALUE1}"
 　　
 ** Since the log system does not need graph {ITEM.ID} is not attached to the argument. **
